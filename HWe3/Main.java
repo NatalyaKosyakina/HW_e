@@ -29,8 +29,6 @@ public class Main {
                 user.whatToAdd();            }
             System.out.println(user);
         }
-
-        System.out.println("Цикл завершен");
         user.save();
     }
 

@@ -29,7 +29,7 @@ public class User {
             DateFormat format = new SimpleDateFormat("dd.MM.yyyy");
             try {
                 Date bd = format.parse(data);
-                this.birthdate = bd.toString();
+                this.birthdate = format.format(bd);
             } catch (ParseException e) {
                // throw new ParseException();
             }
